@@ -1,4 +1,4 @@
-package com.example.loja;
+package com.example.loja.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,21 +12,19 @@ public class Produto{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long int;
+    private Long id;
 
-    @NotBlank
     private String nome;
 
-    @NotBlank
     private String descricao;
-
-    @Positive
+    
     private Double preco;
 
     @ManyToOne
     private Categoria categoria;
 
     public Produto() {
+
     }
     public Produto(Long id, String nome, String descricao, Double preco, Categoria categoria) {
         this.id = id;
