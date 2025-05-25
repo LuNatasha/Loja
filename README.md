@@ -17,28 +17,28 @@ Este projeto é uma **API RESTful** desenvolvida como **atividade acadêmica**, 
 ## ✅ Funcionalidades
 
 ### 📂 Categorias
-- 🔍 Listar todas as categorias
-- 🔎 Buscar uma categoria pelo ID
-- ➕ Criar uma nova categoria
-- ♻️ Atualizar uma categoria existente
-- ❌ Excluir uma categoria
+- Listar todas as categorias
+- Buscar uma categoria pelo ID
+- Criar uma nova categoria
+- Atualizar uma categoria existente
+- Excluir uma categoria
 
 ### 📦 Produtos
-- 🔍 Listar todos os produtos
-- 🔎 Buscar um produto pelo ID
-- ➕ Criar um novo produto
-- ♻️ Atualizar um produto existente
-- ❌ Excluir um produto
-- 🔗 Cada produto está associado a uma **categoria**
+- Listar todos os produtos
+- Buscar um produto pelo ID
+- Criar um novo produto
+- Atualizar um produto existente
+- Excluir um produto
+- Cada produto está associado a uma **categoria**
 
 ---
 
 ## 🧰 Tecnologias Utilizadas
 
-- ⚙️ Java 17
-- 🚀 Spring Boot 3.x
-- 🗃️ Spring Data JPA (Hibernate)
-- 🧪 Banco de Dados H2 (memória)
-- 📦 Maven
+- Java 17
+- Spring Boot 3.x
+- Spring Data JPA (Hibernate)
+- Banco de Dados H2 (memória)
+- Maven
 
 ---
